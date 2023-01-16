@@ -9,8 +9,9 @@ public class PanelDibujo extends JPanel {
         int anchura=getWidth();
         int altura=getHeight();
 
-        g.drawLine(0,0,anchura,altura);
-        g.drawLine(0,altura,anchura,0);
+        g.drawLine(125,0,200,200);
+        g.drawLine(100,125,200,125);
+        g.drawLine(125,0,125,200);
 
 
     }
