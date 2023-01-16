@@ -5,7 +5,7 @@ public class dialogo {
                 Double.parseDouble(JOptionPane.showInputDialog("Ingrese el peso en KG"));
         double altura=
                 Double.parseDouble(JOptionPane.showInputDialog("Ingrese la altura  en m"));
-        double imc=peso/altura;
+        double imc=peso/(altura*altura);
         String mensaje=String.format("su ICM es de :",imc);
         JOptionPane.showMessageDialog(null,imc);
     }
